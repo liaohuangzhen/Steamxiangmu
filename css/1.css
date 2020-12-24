@@ -1,0 +1,429 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#BOX-Top{
+	width: 100%;
+	height: 104px;
+	background: #171a21;
+}
+
+
+/*The box top------------------------------*/
+
+
+.BoxTop-box{
+	width: 1000px;
+	height: 104px;
+	margin: 0 auto;
+}
+
+
+/*The box top left------------------------*/
+
+.BoxTop-left{
+	float: left;
+}
+
+.BoxTop-left div{
+	float: left;
+	padding-left: 10px;
+	padding-top: 37px;
+}
+
+.BoxTop-left a{
+	color: #b8b6b4;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.BoxTop-left a:hover{
+	color: white;
+}
+
+#steam{
+	opacity: 0.8;
+	padding-top:25px;
+	padding-right: 50px;
+	
+}
+
+/*The box top left------------------------*/	
+.BoxTop-right{
+	float: right;
+	margin-top: 5px;
+}
+
+.BoxTop-right div{
+	float: left;
+}
+
+.BoxTop-right a{
+	color: #b8b6b4;
+	font-size: 12PX;
+	text-decoration: none;
+}
+
+.BoxTop-right a:hover{
+	color: white;
+}
+
+.B-T-R-BOX{
+	width: 90PX;
+	height: 22PX;
+	padding: 2px 5px;
+	background-color: #5c7e10;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*<!--This is a medium box!!!!!-->*/
+
+#BOX-Center{
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/colored_body_top2.png);
+	background-color: #1B2838;
+}
+
+.BoxC-box{
+	width: 1200px;
+	height: 700px;
+	margin-left:15%;
+}
+
+/* <!--Code name:210--> */
+
+.BoxC-left{
+	width: 210px;
+	height: 800px;
+	float: left;
+	margin-top: 20px;
+}
+
+.Title{
+	font-size: 12px;
+	color: #C6D4DF;
+}
+
+.BcL-DT a{
+	font-size: 13px;
+	text-decoration: none;
+	color: #66c0f4;
+}
+
+.BcL-DT a:hover{
+	font-size: 13px;
+	text-decoration: none;
+	color: white;
+}
+
+.dl-div{
+	width: 210px;
+	height: 20px;
+	margin-top: 4px;
+}
+
+#DT-BOX{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+	overflow: hidden;
+}
+
+#DT-img{
+	width: 192px;
+	height: 16px;
+	background-image: url(../img/store_menu_icons.png);
+}
+
+.dl-div div{
+	float: left;
+}
+
+.Title{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+/* <!--Code name:940--> */
+
+.BoxC-right{
+	width: 940px;
+	height: 800px;
+	margin-top: 40px;
+	/* border: 1px solid rosybrown; */
+	float: right;
+}
+
+.BoxC-right-navigation{
+	width: 940px;
+	height: 35px;
+	background-color: #367096;
+}
+
+#Navigation-ul{
+	width: 940px;
+	height: 35px;
+}
+
+#Navigation-ul li{
+	float: left;
+	text-align: center;
+	padding: 0 20px;
+	list-style: none;
+	
+}
+
+#li-navigat{
+	line-height: 34px;
+	border-left: 1px solid #2B5571;
+
+
+	
+}
+	
+#li-navigat:hover{
+	background-color: #DDE6EC;
+}
+
+#Navigation-ul a{
+	color: #BAC4CD;
+	font-size: 13px;
+	text-decoration: none;
+}
+#li-navigat:hover a{
+	color: #171A21;
+}
+.li-input{
+	width: 204px;
+	height: 35px;
+	margin-left: 21.7%;
+	margin-top: 1px;
+	
+}
+
+.li-input div{
+	float: left;
+}
+
+.li-input input{
+	width: 230px; 
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid #22445B;
+	background-color: #316282;
+	outline: none; /* //input在获得焦点时外边框不变色 */
+}
+
+.li-input input:hover{
+	border: 1px solid #4C9ACC;
+}
+
+/* <!-- Recording and broadcasting map --> */
+
+#R-and-B-map{
+	width: 1030px;
+	height: 800px;
+	margin-top: 30px;
+}
+
+/* leftArrowBOX */
+
+/* left */
+#bossbox{
+	width: 45px;
+	height: 105px;
+	float: left;
+	position: relative;
+	top: 100px;
+	z-index: 2;
+	opacity: 0.7;
+	background-image: linear-gradient(to right, RGB(18,47,66) , RGB(26,58,79));
+}
+
+#bossbox:hover{
+	cursor: pointer;
+	background-image: linear-gradient(to right, rgb(248, 255, 255) , RGB(18,47,66));
+}
+
+.leftArrowBOX{
+	width: 35px;
+	height: 36px;
+	position: relative;
+	top: 32px;
+	left: 8px;
+	overflow: hidden;
+}
+
+.leftArrow{
+	width: 46px;
+	height: 36px;
+	position: relative;
+	left: -23px;
+	background-image: url(../img-sm/arrows.png);
+}
+
+/*rightArrowBOX RIGHT */
+#bossboxRight{
+	width: 45px;
+	height: 105px;
+	float: right;
+	position: relative;
+	top: -250px;
+	z-index: 2;
+	background-image: linear-gradient(to right, RGB(26,58,79) , RGB(18,47,66));
+	opacity: 0.8;
+}
+
+#bossboxRight:hover{
+	cursor: pointer;
+	background-image: linear-gradient(to right, RGB(26,58,79) , rgb(255, 255, 255));
+}
+
+.rightArrowBOX{
+	width: 23px;
+	height: 36px;
+	position: relative;
+	top: 32px;
+	left: 13px;
+	overflow: hidden;
+}
+
+.rightArrow{
+	width: 46px;
+	height: 36px;
+	position: relative;
+	background-image: url(../img-sm/arrows.png);
+}
+
+.ulRotation{
+	width: 940px;
+	height: 353px;
+	overflow: hidden;
+}
+
+.ulRotation li{
+	list-style: none;
+	float: left;
+}
+
+#udb{
+	width: 4700px;
+	height: 353px;
+	position: relative;
+}
+
+#divRotation{
+	position: relative;
+	left: -46PX;
+}
+
+.boxRotation{
+	width: 940px;
+	height: 353px;
+	position: relative;
+}
+
+.divRotationLeft{
+	width: 616px;
+	height: 353px;
+	float: left;
+}
+
+.divRotationRight{
+	width: 324px;
+	height: 353px;
+	background-image: url(../img-sm/background_maincap_2.jpg);
+	float: left;
+}
+
+#divRotationRightSpan{
+	
+	color: white;
+	font-size: 24px;
+	padding-bottom: 4px;
+	padding-top: 120px;
+	padding-left: 30px;
+}
+
+#divRotationRightSpanTwo{
+	margin-top: 140px;
+	margin-left: 20px;
+}
+
+#divRotationRightSpanTwo div{
+	float: left;
+}
+
+#spanTwo{
+	position: relative;
+	left: 230px;
+	top: -5px;
+}
+/* <!-- widthBOX --> */
+#widthbox{
+	width: 940px;
+	height: 40px;
+}
+
+.widthbox{
+	width: 100px;
+	height: 9px;
+	padding: 10px 0 0 300px;
+}
+
+.widthbox div{
+	width: 15px;
+	height: 9px;
+	margin-right: 10PX;
+	border-radius: 2px;
+	background-color: RGB(73,83,96,0.7);
+	float: left;
+}
+
+.widthbox div:hover{
+	cursor: pointer;
+}
+
+
+.widthbox .active{
+	width: 15px;
+	height: 9px;
+	margin-right: 10PX;
+	border-radius: 2px;
+	background-color: rgb(255, 255, 255);
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!--This is the bottom box!!!!!!!--> */
+#BOX-Buttom{
+	width: 100%;
+	height: 500px;
+	background-color: #1B2838;
+}
