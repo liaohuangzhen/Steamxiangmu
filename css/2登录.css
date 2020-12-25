@@ -11,17 +11,30 @@
 .Box-c-left{
 	width: 57%;
 	height: 833px;
-	background:url(../img-sm/Image%202.png);
+	background:url(../img-sm/acct_creation_bg.jpg);
 	float: left;
 }
 
+
 .Box-c-l-box{
-	width: 40%;
-	height: 400px;
-	/* text-align: center; */
+	width: 450px;
+	height: 400px;		
 	padding-top: 30px;
 	color: white;
 	float: right;
+
+}
+
+.Box-c-l-box .COME{
+	width: 326px;
+	height: 40px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.Box-c-l-box span{
+	font-size: 13px;
+	color: #b8b6b4;
 }
 
 #input2{
@@ -32,6 +45,7 @@
 	background-color: #32353C;
 	border: 1px solid #26282D;
 	margin-top: 5px;
+	margin-bottom: 25px;
 	outline: none; /* //input在获得焦点时外边框不变色 */
 }
 
@@ -39,14 +53,16 @@
 	width: 190px;
 	height: 36px;
 	margin-left: 40px;
-	border: 1px solid #26282D ;/* //自定义边框 */
+	border: 1px solid #26282D;
 	border-radius: 3px;
 	background-image: linear-gradient(-90deg,RGB(37,98,209),RGB(61,162,241)); 
 }
 
 #button a{
+	padding-left: 80px;
 	color: white;
 	text-decoration: none;
+	line-height: 36px;
 	opacity: 0.8;
 	font-size: 15px;
 }
@@ -59,22 +75,27 @@
 	float: left;
 }
 
+.Box-C-right-box{
+	width: 320px;
+	height: 730px;
+	padding-top: 100px;
+}
+
 #joinSteam{
 	width: 110px;
 	height: 32px;
 	text-decoration: none;
+	margin: 0 auto;
+	margin-top: 15px;
 	border: 1px solid #7A7C7F;
 	border-radius: 2px;
+	color: white;
+	text-align: center;
+	line-height: 32px;
 }
 
 #joinSteam:hover{
 	border: 1px solid #FFFFFF;
 }
 
-#WCsteam a{
-	line-height: 32px;
-	text-align: center;
-	color: white;
-	text-decoration: none;
-}
 
