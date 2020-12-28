@@ -1,4 +1,6 @@
+
 /* <!--This is a medium box!!!!!--> */
+
 
 #BOX-center {
 	width: 100%;
@@ -52,19 +54,37 @@
 #button{
 	width: 190px;
 	height: 36px;
+	text-align: center;
+	line-height: 34px;
 	margin-left: 40px;
 	border: 1px solid #26282D;
 	border-radius: 3px;
 	background-image: linear-gradient(-90deg,RGB(37,98,209),RGB(61,162,241)); 
 }
 
-#button a{
-	padding-left: 80px;
-	color: white;
-	text-decoration: none;
-	line-height: 36px;
-	opacity: 0.8;
-	font-size: 15px;
+
+#button:hover{
+	/* //悬浮小手 */
+	cursor: pointer; 
+	/* 1   auto                     ：标准光标   
+	2   default               ：标准箭头   
+	3   pointer                     ：手形光标   
+	4   wait                     ：等待光标   
+	5   text                     ：I形光标   
+	6   vertical-text   ：水平I形光标   
+	7   no-drop               ：不可拖动光标   
+	8   not-allowed       ：无效光标   
+	9   help                     ：?帮助光标   
+	10   all-scroll         ：三角方向标   
+	11   move                     ：移动标   
+	12   crosshair           ：十字标   
+	13   e-resize   
+	14   n-resize   
+	15   nw-resize   
+	16   w-resize   
+	17   s-resize   
+	18   se-resize   
+	19   sw-resize     */
 }
 
 /* ///////right */
@@ -98,4 +118,36 @@
 	border: 1px solid #FFFFFF;
 }
 
+/* 第二个div
+#BOX-Toptwo{
+	width: 100%;
+	height: 104px;
+	background: #171a21;
+}
 
+#ws{
+	width: 100%;
+	height: 1000PX;
+}
+
+.Box-BOX{
+	width: 100%;
+	height: 36px;
+	line-height: 104px;
+}
+
+.BOXleft{
+	width: 36px;
+	height: 32px;
+	float: left;
+}
+
+.BOXright{
+	width: 157px;
+	height: 36px;
+	margin:0 auto;
+}
+
+.BOXleft:hover{
+	cursor: pointer;
+} */

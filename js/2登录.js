@@ -36,16 +36,16 @@ $(document).mouseup(function () {
 
 
 //当浏览器窗口大小改变时，触发 window.onresize事件
-window.onresize=function(){  
-	//如果页面宽度小于900 $("body").eq(0) 隐藏 $("body").eq(1)显示
-	if (window.innerWidth<900) {
-		$("body").eq(0).hide()
-		$("body").eq(1).show()
-	}else{
-		//如果页面宽度不小于900 $("body").eq(1) 隐藏 $("body").eq(0)显示
-		$("body").eq(1).hide()
-		$("body").eq(0).show()
-	}
-} 
+// window.onresize=function(){  
+// 	//如果页面宽度小于900 $("body").eq(0) 隐藏 $("body").eq(1)显示
+// 	if (window.innerWidth<900) {
+// 		$("#BOSS").eq(0).hide()
+// 		$("#ws").show()
+// 	}else{
+// 		//如果页面宽度不小于900 $("body").eq(1) 隐藏 $("body").eq(0)显示
+// 		$("#ws").show()
+// 		$("#BOSS").eq(0).show()
+// 	}
+// } 
 
 	

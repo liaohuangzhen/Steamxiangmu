@@ -2,8 +2,8 @@
 	margin: 0;
 	padding: 0;
 }
-body{
-	min-width: 1530px;
+#body{
+	min-width: 1430px;
 }
 
 #BOX-Top{
@@ -101,7 +101,7 @@ body{
 .BoxC-box{
 	width: 1200px;
 	height: 700px;
-	margin-left:15%;
+	margin-left:12%;
 }
 
 /* <!--Code name:210--> */
@@ -216,6 +216,7 @@ body{
 	margin-top: 1px;
 	
 }
+
 
 .li-input div{
 	float: left;
