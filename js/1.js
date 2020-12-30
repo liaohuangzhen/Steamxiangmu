@@ -4,7 +4,6 @@ $("#input1").focus(function() {
 })
 
 
-
 var i = $('.liRotation').index();
 $('.widtDIV').click(function(){
 	//删除其他class为active的active的class
@@ -159,4 +158,34 @@ $('#bossbox').on('click', function() {
 })
 
 
+// 轮播图 二
+var NB = $('.NaviBox').index()
+$('.ButRIGHT').click(function(){
+	NB++
+	console.log(NB)
+})
 
+
+
+
+
+
+
+
+
+
+
+
+// JSON
+
+// var sxf=[{
+// 	"name":"a",
+// 	"kiss":[0,1,2,3,8,5]
+// },{
+// 	"name":"b",
+// 	"kiss":[0,1,2,3,8,5]
+// }];
+
+// console.log(sxf[0].wsc[4])
+// var jsjson = JSON.parse(sxf);
+// console.log(json)
